@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200&family=Montserrat:ital,wght@1,300&family=Special+Elite&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #292929;
+    font-family: 'Barlow';
+    text-align: center;
+}
+
+header{
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    height: 68px;
+    width: 128px;
+    margin-top: 39px;
+
+}
+
+.container{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 940px;
+    height: 437px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+    background: #E5E5E5;
+    border: 3px solid #51E678;
+    border-radius: 8px; 
+}
+
+h1{
+    text-align: center;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+
+    color: rgba(41, 41, 41, 0.8);
+}
+
+button {
+    position: relative;
+    width: 412px;
+    height: 64px;
+    background: #51E678;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #292929;
+
+}
+
+#texto1{
+    font-family: Barlow;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
